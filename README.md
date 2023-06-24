@@ -1,5 +1,5 @@
 # dataProcess
-"""
+
     1.读取对应目录的csv数据，分为 root/年/月/日/股票.csv 
     2.对某一列数据进行标准化
         2.1 创建一个scaler，根据不同的scaler标准化列。ScalerNew中的fit_transform(dataframe，axis)可以得到标准化后的dataframe
@@ -15,5 +15,5 @@
 
 处理流程大致为：读取数据，筛选出所选数据，选择对应标准化方法标准化，使用rolling得到不同时间的变化率，使用变化率率分析合适的标签阈值，使用阈值对变化率打上标签。
 
-"""
+
 
